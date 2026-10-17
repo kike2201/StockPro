@@ -1,17 +1,42 @@
-# stockpro
+# StockPro
 
-A new Flutter project.
+## Descripción
 
-## Getting Started
+StockPro es una aplicación móvil que desarrollé para el examen de Computación Móvil. Su objetivo es permitir la administración de productos, categorías y proveedores desde una misma aplicación.
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+La aplicación cuenta con un inicio de sesión y una pantalla principal desde donde se puede acceder a tres módulos:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Productos:** permite listar, ver, agregar, editar y eliminar productos.
+- **Categorías:** permite listar, ver, agregar, editar y eliminar categorías.
+- **Proveedores:** permite listar, ver, agregar, editar y eliminar proveedores.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Herramientas utilizadas
+
+- Flutter y Dart.
+- Visual Studio Code.
+- Android Studio.
+- Firebase Authentication.
+- API proporcionada por el profesor.
+
+## Funcionamiento
+
+Para el inicio de sesión utilicé Firebase Authentication, mientras que la información de productos, categorías y proveedores se obtiene desde la API entregada para el examen.
+
+Para ejecutar el proyecto se debe tener Flutter configurado y utilizar un emulador Android.
+
+Comandos para ejecutar:
+
+```
+flutter pub get
+flutter run
+```
+
+Para ingresar se necesita un usuario registrado en Firebase Authentication.
+
+## Autor
+
+Enrique Manquepan Pacheco.
+
+Examen de Computación Móvil — Ingeniería Informática.
